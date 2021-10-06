@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* Body styles */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+/* Header Styles */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #EDEDED;
+    background-color: #33DDFF;
+}
+
+header .container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .container .content-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .content-img img{
+    width: 100%;
+}
+
+header .container .content-nav{
+    width: 60%;
+}
+
+header .container .content-nav nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .container .content-nav nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+header .container .content-nav nav ul li{
+    padding: 5px 10px ;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header .container .content-nav nav ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header .container .content-logs{
+    width: 20%;
+    display: flex;
+}
+
+header .container .content-logs div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .container .content-logs div:nth-child(1){
+    display: flex;
+    justify-content: end;
+    margin-right: 3px;
+}
+
+header .container .content-logs div:nth-child(2){
+    justify-content: start;
+    display: flex;
+    margin-left: 3px;
+}
+
+header .container .content-logs div a svg{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+/* End Header Styles */
+
+/* Styles footer */
+footer{
+    border-top: solid rgb(58, 58, 58) 2px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div span{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: rgb(36, 36, 36);
+}
+/* End Styles Footer */
+
+/* index Styles */
+#menu2{
+    width: 100%;
+    height: 175vh;
+    background-color:black;
+}
+#menu2 #fila10{
+    height: 100vh;
+    background-color:mediumorchid;
+    margin: 20px;
+    display: flex;
+}
+#menu2 #fila10 #columna7{
+    height: 95vh;
+    width: 40%;
+    background-color:rgb(238, 170, 183);
+    margin: 20px;
+    text-align: center;
+}
+#menu2 #fila10 #columna7 img{
+    height: 40vh;
+    width:90% ;
+    margin: 5px;
+}
+#menu2 #fila10 #columna7 p {
+    margin: 10px;
+}
+#menu2 #fila10 #columna8{
+    height: 95vh;
+    width: 60%;
+    background-color:rgb(221, 83, 111);
+    margin: 20px;
+    text-align:center ;
+}
+#menu2 #fila10 #columna8 img{
+    height: 80vh ;
+    width: 90%;
+    margin: 5px;
+}
+#menu2 #fila11{
+    height: 72vh;
+    display: flex;
+    background-color: mediumturquoise;
+    margin: 20px;
+}
+#menu2 #fila11 #columna9{
+    height: 70vh;
+    width: 33.33%;
+    background-color:rgb(238, 170, 183);
+    margin: 20px;
+    text-align: center;
+}
+#menu2 #fila11 #columna9 img {
+    height: 40vh;
+    width:90%;
+    margin: 20px;
+}
+#menu2 #fila11 #columna10{
+    height: 70vh;
+    width: 33.33%;
+    background-color:rgb(221, 83, 111);
+    margin: 20px;
+    text-align: center;
+}
+#menu2 #fila11 #columna10 img {
+    height: 40vh;
+    width:90%;
+    margin: 20px;
+}
+#menu2 #fila11 #columna11{
+    height: 70vh;
+    width: 33.33%;
+    background-color:rgb(238, 170, 183);
+    margin: 20px;
+    text-align: center;
+}
+#menu2 #fila11 #columna11 img {
+    height: 40vh;
+    width:90%;
+    margin: 20px;
+}
+/* End index Styles */
+
+/* aboutus Styles */
+#about {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    background-color: #D580FF;
+}
+#about #fila8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    background-color:darkmagenta;
+    margin-top: 20px;
+}
+#about #fila9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    background-color:darkturquoise;
+    margin-top: 20px;
+}
+
+#about #fila9 #columna4{
+    width: 33.33%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#about #fila9 #columna5{
+    width: 33.33%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+#about #fila9 #columna6{
+    width: 33.33%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* End aboutus Styles */
+
+/* services Styles */
+main .services {
+    width: 100%;
+    height: 115vh;
+    background-color:cornflowerblue;
+}
+main .services #fila1 {
+    height: 50vh;
+    background-color:cornsilk;
+    margin: 20px;
+    text-align: center;
+}
+main .services #fila1 img{
+    height: 40vh;
+    width: 40%;
+}
+main .services #fila2 {
+    height: 60vh;
+    background-color:cyan;
+    margin: 20px;
+    display: flex;
+}
+main .services #fila2 #columna1,#columna2,#columna3{
+    height: 80vh;
+    width: 33.33%;
+    margin: 15px;
+}
+main .services #fila2 #columna1 img,#columna2 img ,#columna3 img {
+    height: 40vh;
+    width: 80%;
+    margin: 20px;
+}
+/* End services Styles */
+
+/* Personal Styles */
+#personal1 {
+    margin: 20px;
+    font-family: arial;
+    background-color:khaki;
+}
+#personal1  #contenedor {
+    margin: 20px;
+}
+#personal1  #contenedor h1 {
+    text-align: center;
+}
+#personal1  #contenedor li {
+    margin: 10px;
+}
+/* End Personal Styles */
+
+/* Terms styles */
+#term2 {
+    margin: 20px;
+    font-family: arial;
+    background-color:khaki;
+}
+#term2  #contenedor2 {
+    margin: 20px;
+}
+#term2 #contenedor2 h1 {
+    text-align: center;
+}
+#term2  #contenedor2 li {
+    margin: 10px;
+}
+/* End Terms styles */
+
+/* contact Styles */
+#contact {
+    margin: 20px;
+    background-color:mediumaquamarine;
+    text-align: center;
+}
+#contact #fila3,#fila4,#fila5,#fila6,#fila7 {
+    margin: 20px;
+    background-color: lightseagreen;
+}
+/* End contact Styles */
